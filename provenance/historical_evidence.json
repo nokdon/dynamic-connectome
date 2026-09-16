@@ -1,0 +1,35 @@
+{
+  "scope": "Evidence from the private research workspace; not all source branches are included in the executable release. Native CSV contains historical selected validation metrics, not new test results.",
+  "records": [
+    {
+      "evidence": "historical_stage2_selection",
+      "source_path": "python/dc/stage12/harness.py",
+      "source_sha256": "0a8838b685921e964359037e80ec3d562c46509d2a3fbfcd9eebb77af9761dbe"
+    },
+    {
+      "evidence": "historical_baseline_selection",
+      "source_path": "python/dc/reviewer_blockers_01/fixed_graph_train.py",
+      "source_sha256": "f31530cd8fd294a57194a3e8098e96b514e00e2afacbffa4e0fd8bfd39fc60d5"
+    },
+    {
+      "evidence": "native_campaign_table",
+      "source_path": "runs/native_k2_teacher_release_replication_24seed_01/full_retrain_results.csv",
+      "source_sha256": "d50bb6b497bdd17ab1703c2c15bac13bda4466ad4cb86514369ae4d8313a9593"
+    },
+    {
+      "evidence": "decoder_only_lava_repair",
+      "source_path": "python/dc/repair_A3_lava_readout_decoder_divergence_01/run_repair_A3_lava_readout_decoder_divergence_01.py",
+      "source_sha256": "8e359da21bab1f017b7f5162208fc6ee360d4386c5889eeb03cd7d9761f55cc9"
+    },
+    {
+      "evidence": "p00_least_squares",
+      "source_path": "python/dc/native_dc_p00_membrane_decoder_replication_01/run_all.py",
+      "source_sha256": "2e848a42ba45d6ada984862c5e2d8a011a8321a3bc56be88251930376971279c"
+    },
+    {
+      "evidence": "normalization",
+      "source_path": "python/dc/deployment_input_recovery_01/write_bench_metadata.py",
+      "source_sha256": "5ddf56a94d1a1bd6de64320c99a5c8fb2a1668021374b7b43009412606b9718a"
+    }
+  ]
+}

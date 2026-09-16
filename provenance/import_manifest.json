@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "source": "python/dc/stage12/sampler.py",
+      "source_sha256": "af69d4429ff649a8f447abd7aee78131c972347a513c5fa1d951a301702c728f",
+      "target": "src/dynamic_connectome/stage12/sampler.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/stage12/router.py",
+      "source_sha256": "23fd757e4e059e24ce95d9e7826aacfeeaa79297f48219448301f658d53d312c",
+      "target": "src/dynamic_connectome/stage12/router.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/stage12/transition.py",
+      "source_sha256": "741ce07678dae76e79713f3a81da350dced4832225500247479a8a5f8082f526",
+      "target": "src/dynamic_connectome/stage12/transition.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/stage12/model_stage1.py",
+      "source_sha256": "620499fdbea42145938134b03f1c8fdf9235ee4f9e9c044f3ae77a541038187d",
+      "target": "src/dynamic_connectome/stage12/model_stage1.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/stage12/model_stage2.py",
+      "source_sha256": "7ba559cdc092f31e1d3b68e0b7d0a02f616d6b5be5f49ce2891ebf79a96f6df8",
+      "target": "src/dynamic_connectome/stage12/model_stage2.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/stage12/init_params.py",
+      "source_sha256": "152a5f8ef4388b6b5ac8c2f5db6ffeeddc0a0b4bb064aef81d83c86beb6e5ef2",
+      "target": "src/dynamic_connectome/stage12/init_params.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/stage12/loss_stage1.py",
+      "source_sha256": "9b0634ca4d98c83872476a609e6478a7fe629fb1b945df3a91875ff0891ac27f",
+      "target": "src/dynamic_connectome/stage12/loss_stage1.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/stage12/loss_stage2.py",
+      "source_sha256": "0ec37195fbeb976ba1b60617a64b615d24e0d0aa1a05503a2b6c1cfa7563fce4",
+      "target": "src/dynamic_connectome/stage12/loss_stage2.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/stage12/structural_objectives.py",
+      "source_sha256": "a85243fa2064897da1968f484a3cc192bdbc89e01de3c78bc3511c038c4fed02",
+      "target": "src/dynamic_connectome/stage12/structural_objectives.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/b3_v2/input_coding.py",
+      "source_sha256": "1b1e366d564fe45d0b089e36608104aacea04530c1cc65cd1a9efa56974524cf",
+      "target": "src/dynamic_connectome/spiking/input_coding.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/b3_v2/spike_surrogate.py",
+      "source_sha256": "e226f6b26a26da30ca6abf89405a1d4b6b3980e8db37a6238cd98bf88387406c",
+      "target": "src/dynamic_connectome/spiking/spike_surrogate.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/b3_v2/model_b3.py",
+      "source_sha256": "1defb5bea286b1707c9ad9b02477b2c7c85fd0e68ca216b7940211f3dcb88e56",
+      "target": "src/dynamic_connectome/spiking/model_b3.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/b3_v2/init_b3.py",
+      "source_sha256": "9a04cf68d4490ce8e8c784f754c3d7e1b3ee5bad9e215d5853a023399e128a8e",
+      "target": "src/dynamic_connectome/spiking/init_b3.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "python/dc/b3_v2/loss_b3.py",
+      "source_sha256": "655ccfbdbcea471620061556e5f4baeaf08c9fcf358c086380b6aa007dbf7160",
+      "target": "src/dynamic_connectome/spiking/loss_b3.py",
+      "adaptation": "Explicit JAX imports; retained model math. Selected functions only where specified; removed implicit teacher and parameter repair."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/best_seed_bundle/problem_static.npz",
+      "source_sha256": "e5cbf3d0b8ae1ba13956fe9f079b5b94d50744a508455ef850c875592f2dd625",
+      "target": "src/dynamic_connectome/_artifacts/problem.npz",
+      "adaptation": "Only coordinates, mask and admissible pairs retained."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_0/params_stage2_best.pkl",
+      "source_sha256": "ea0635c7d15ba6cd3c36259c234f6d5a1079d28e1b54b9e1948f88bd017b3abb",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-0.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_0/P_star.npy",
+      "source_sha256": "333f9e3ee01657b3d671381ad7c71bf941e833330b399693b5740e6346e09249",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-0.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_1/params_stage2_best.pkl",
+      "source_sha256": "a8a52f317e09b2187cf79c021f4e7791bbe9320b2c0833e5b67d19155a9f9ca0",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-1.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_1/P_star.npy",
+      "source_sha256": "e45d85db320bba2525b769d169c519882768519d610d2c24e4aebb410b0edc4a",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-1.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_2/params_stage2_best.pkl",
+      "source_sha256": "89ba114d37caa7c6c9b6e509678769af922b3fa6f108650907d001c263ae3a25",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-2.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_2/P_star.npy",
+      "source_sha256": "b6629bc9ca107e1462aa74590c8b9863d2fcaa3fa093d90dfdce533f237e025e",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-2.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_3/params_stage2_best.pkl",
+      "source_sha256": "f1429775c48183ca5422f8b8351a114df54bc0d956a420d9220430fdcc46c44b",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-3.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_3/P_star.npy",
+      "source_sha256": "a1a4839494185fc57881cf0233e74f635aaebf40748841b8039b8c73b4bd3a10",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-3.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_4/params_stage2_best.pkl",
+      "source_sha256": "98a1c4b3ea3f13a7c26e91787ff685c1baab4d3473844958acb1f68a6e2fa5b3",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-4.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/seed_4/P_star.npy",
+      "source_sha256": "6a0293fb65ee404e871854e90d6ddb432bd81ed1d542a7943923b308db2e3171",
+      "target": "src/dynamic_connectome/_artifacts/models/learned-4.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_0/params_best.pkl",
+      "source_sha256": "cf97a8f2f8f3bc02f772eb454a9c7ebc622883787701002227817ec19cd14033",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-0.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_0/P_graph.npy",
+      "source_sha256": "9836eda2e95df2e42bfc9f199e043328fa4ebfb13cd6d1c9b650a4861c41b19d",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-0.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_1/params_best.pkl",
+      "source_sha256": "50a0cb388579834d784158d79b55bfa83cda366962689b99fd600f5d2c17951a",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-1.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_1/P_graph.npy",
+      "source_sha256": "9836eda2e95df2e42bfc9f199e043328fa4ebfb13cd6d1c9b650a4861c41b19d",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-1.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_2/params_best.pkl",
+      "source_sha256": "959bac15b2fe0b3e4805bd79e702fd2cd588e8440899513fbb02e226f1754901",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-2.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_2/P_graph.npy",
+      "source_sha256": "9836eda2e95df2e42bfc9f199e043328fa4ebfb13cd6d1c9b650a4861c41b19d",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-2.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_3/params_best.pkl",
+      "source_sha256": "7a07e69157412014a461a3c6e5e0ff35472d4bd464eb80fbfbcb0365706d3344",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-3.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_3/P_graph.npy",
+      "source_sha256": "9836eda2e95df2e42bfc9f199e043328fa4ebfb13cd6d1c9b650a4861c41b19d",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-3.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_4/params_best.pkl",
+      "source_sha256": "dd2d0c395478b0344cdac83dd05ac24c06a718788f529caab1b563253a0ab18b",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-4.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_candidate_graph/seed_4/P_graph.npy",
+      "source_sha256": "9836eda2e95df2e42bfc9f199e043328fa4ebfb13cd6d1c9b650a4861c41b19d",
+      "target": "src/dynamic_connectome/_artifacts/models/dense-4.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_0/params_best.pkl",
+      "source_sha256": "16730857f8f8efe1081b20fdda7bbbc981e34077878f97ce0fc35b3691743dc8",
+      "target": "src/dynamic_connectome/_artifacts/models/random-0.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_0/P_graph.npy",
+      "source_sha256": "495529d7b0f6c3506a86d266ae2d3959c5af2a5f16831a8e42446eac09c5a008",
+      "target": "src/dynamic_connectome/_artifacts/models/random-0.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_1/params_best.pkl",
+      "source_sha256": "cf34c1654d5fea019343bbfc4e99c14bb4aef0b7b3ff4a5a5c09af37594ca730",
+      "target": "src/dynamic_connectome/_artifacts/models/random-1.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_1/P_graph.npy",
+      "source_sha256": "8f3ad49c7064416cf9eb7e1861e6fc3caf98cb7828fc921d53caba1a5597a5c7",
+      "target": "src/dynamic_connectome/_artifacts/models/random-1.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_2/params_best.pkl",
+      "source_sha256": "efafaebf494147f78ffb2e253e33971cb9e85ffaec4de773bfcd29157e38b496",
+      "target": "src/dynamic_connectome/_artifacts/models/random-2.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_2/P_graph.npy",
+      "source_sha256": "19678ff1b8ce8cf26263c54db509cf7f720d9bf65366c3147da5011c1b0ed47d",
+      "target": "src/dynamic_connectome/_artifacts/models/random-2.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_3/params_best.pkl",
+      "source_sha256": "311e81ca117b6d2c386aa0cfcb1b8ffd7461059cbf930570adabab5d5eecba07",
+      "target": "src/dynamic_connectome/_artifacts/models/random-3.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_3/P_graph.npy",
+      "source_sha256": "4d0c2b115eb9e359495dd562b4f733d68c1b43b78dc83a0c02d7f2ba31d87d11",
+      "target": "src/dynamic_connectome/_artifacts/models/random-3.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_4/params_best.pkl",
+      "source_sha256": "67e576d0d80748dc5e3369cb9dfcf6e5dc3a2cc2c3151179d770cda29297c427",
+      "target": "src/dynamic_connectome/_artifacts/models/random-4.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/random_sparse_matched_row_degree/seed_4/P_graph.npy",
+      "source_sha256": "01c95aa9dee41f520cdd90e83eb4425cc1302fdee467d143a3f1bf519b73fab5",
+      "target": "src/dynamic_connectome/_artifacts/models/random-4.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_0/params_best.pkl",
+      "source_sha256": "6afad456d547a646ffafe376e705ee836cf7bf75656abe13940119758dff4169",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-0.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_0/P_graph.npy",
+      "source_sha256": "1a0b265ed6e53f64baceb43028cdec7cb2a33d3f165491e38eaf94c1739480aa",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-0.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_1/params_best.pkl",
+      "source_sha256": "37fa018d56b266400520c0f0495724c83fa2229fa813fb7039ac26ef9497cf36",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-1.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_1/P_graph.npy",
+      "source_sha256": "1a0b265ed6e53f64baceb43028cdec7cb2a33d3f165491e38eaf94c1739480aa",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-1.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_2/params_best.pkl",
+      "source_sha256": "ff9b49421b4139914e71cf1481bdd7137642e088951453bfc83613f8adec7ddc",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-2.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_2/P_graph.npy",
+      "source_sha256": "1a0b265ed6e53f64baceb43028cdec7cb2a33d3f165491e38eaf94c1739480aa",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-2.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_3/params_best.pkl",
+      "source_sha256": "635df8bd34623fa06ca7e1caa837f49e80f2519de300963678d34a5624427727",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-3.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_3/P_graph.npy",
+      "source_sha256": "1a0b265ed6e53f64baceb43028cdec7cb2a33d3f165491e38eaf94c1739480aa",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-3.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_4/params_best.pkl",
+      "source_sha256": "862a106cdadb7832f16236c79ee1e29054bb007c97649ea833c1310e103a2cd1",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-4.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/heuristic_shortest_path_budgeted/seed_4/P_graph.npy",
+      "source_sha256": "1a0b265ed6e53f64baceb43028cdec7cb2a33d3f165491e38eaf94c1739480aa",
+      "target": "src/dynamic_connectome/_artifacts/models/heuristic-4.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_0/params_best.pkl",
+      "source_sha256": "5a76ac80b7dd48c5c6aca28ce205dc651186557e10887c885fe03e66aa3d5d75",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-0.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_0/P_soft_best.npy",
+      "source_sha256": "48b1c6fcce6f6c4630eaf47936c8bf118d07096e2e6cf5f25abdee167d0d651a",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-0.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_1/params_best.pkl",
+      "source_sha256": "202cae21f7eaf1318c1038cdab0d17f4e33ed88a5ecaf6fcdf8438f7124271cd",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-1.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_1/P_soft_best.npy",
+      "source_sha256": "b0e30ba48903e7e1ac42b73ef74351f4783c5879e3e7553b54b1bb5af9e2ce3b",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-1.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_2/params_best.pkl",
+      "source_sha256": "d9c4758dac41f4b2ef8fe8167639966751dfb9ed63f46c348cab696aacc6b241",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-2.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_2/P_soft_best.npy",
+      "source_sha256": "7b0955ea85823f9fc47116a0e33c64a79bac81cd33ec4209173cb10cbc2f695e",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-2.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_3/params_best.pkl",
+      "source_sha256": "0299083e0de265878bef79851045e2c41352dca01f5166c6780bb5e082e20dcb",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-3.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_3/P_soft_best.npy",
+      "source_sha256": "cdad3fcc15c8e607fff59ee06a9e5a658e56689e60519424efd0f00bcf3f5265",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-3.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_4/params_best.pkl",
+      "source_sha256": "ce2b8fe065afd268650757519feae14c90dc006280bedb0211b723f17fe17d83",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-4.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/reviewer_blockers_01/baselines/dense_soft_gnn/seed_4/P_soft_best.npy",
+      "source_sha256": "8ca7b788b21d4b39f024ad276b9bd6a269fb952d4ebd3ada2d629f199877bb61",
+      "target": "src/dynamic_connectome/_artifacts/models/dense_soft-4.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reproducibility_sprint_02/b3_from_canonical_dc_bundle/full_v2_soft_release_both/best_params.pkl",
+      "source_sha256": "eb753924a671839ce6c644e248dc9d3d00fd01d18961114640166e85d1461ea4",
+      "target": "src/dynamic_connectome/_artifacts/models/hybrid-0.npz",
+      "adaptation": "Trusted local pickle converted to numeric NPZ; dense-soft Theta only."
+    },
+    {
+      "source": "runs/obj_noisy_k22_params_only/best_seed_bundle/P_star.npy",
+      "source_sha256": "333f9e3ee01657b3d671381ad7c71bf941e833330b399693b5740e6346e09249",
+      "target": "src/dynamic_connectome/_artifacts/models/hybrid-0.npz",
+      "adaptation": "Transition matrix retained without reconstruction."
+    },
+    {
+      "source": "runs/reproducibility_sprint_02/b3_from_canonical_dc_bundle/full_v2_soft_release_both/config.json",
+      "source_sha256": "20c992ff446a4e4e16378d68df43429fc11803194bc72e481deb3280cdee8d91",
+      "target": "src/dynamic_connectome/_artifacts/catalog.json",
+      "adaptation": "Spiking config retained verbatim in model metadata."
+    },
+    {
+      "source": "python/dc/reviewer_blockers_01/baselines_random_sparse.py",
+      "source_sha256": "7353e9dcf1d55fa044425f1a24812cd02b2d2d554cbcb0c5ccf5f6388097d8ac",
+      "target": "src/dynamic_connectome/baselines.py",
+      "adaptation": "Retained graph-construction function only; explicit NumPy and NetworkX imports."
+    },
+    {
+      "source": "python/dc/reviewer_blockers_01/baselines_heuristic_graph.py",
+      "source_sha256": "cecdbfeba34eeb5b475b33bdb03da5b1bda230f9fe3d14429a79b8980365ce40",
+      "target": "src/dynamic_connectome/baselines.py",
+      "adaptation": "Retained graph-construction function only; explicit NumPy and NetworkX imports."
+    }
+  ]
+}

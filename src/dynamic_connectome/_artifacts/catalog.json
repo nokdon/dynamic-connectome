@@ -1,0 +1,1406 @@
+{
+  "schema_version": 1,
+  "problem": {
+    "path": "problem.npz",
+    "sha256": "77e328d1dc22167756b10bdb4b13f61397aebc776751a07351280a5df865b85c"
+  },
+  "configuration_origin": "Historical frozen config absent; inference settings reconstructed from tensor shapes and original loader defaults, now explicit.",
+  "models": [
+    {
+      "id": "learned-0",
+      "family": "learned",
+      "seed": 0,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/learned-0.npz",
+      "sha256": "4e4d831c732d74464acedf238ccddbbc836e624628c7c19cddaa9d91dad88ae0",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "learned-1",
+      "family": "learned",
+      "seed": 1,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/learned-1.npz",
+      "sha256": "669b099399444639db22b0b65fa9195e9cdde53fde7e22e5f1abfe99d227dae1",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "learned-2",
+      "family": "learned",
+      "seed": 2,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/learned-2.npz",
+      "sha256": "a99afa1bed63f0b20fb096a544b7f8c04a663c657f69f5dc15003d9677e0a473",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "learned-3",
+      "family": "learned",
+      "seed": 3,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/learned-3.npz",
+      "sha256": "bda138c0ef6c8bd3aec1b478532ae95c1cdf2ec7482152fad303a4fff489ebc4",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "learned-4",
+      "family": "learned",
+      "seed": 4,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/learned-4.npz",
+      "sha256": "7c1ee607ba38220c8fd5702affe48ef4b4f3fe82beb4765418493ba91c64e772",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense-0",
+      "family": "dense",
+      "seed": 0,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/dense-0.npz",
+      "sha256": "99e4d2bbef7fb48de06300925842887b61e5dfbd6a099cac2362c1dd1b0fffa3",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense-1",
+      "family": "dense",
+      "seed": 1,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/dense-1.npz",
+      "sha256": "e5ae49673a344a357808abfea174590fc1221c82437e180f11486823b5f310b8",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense-2",
+      "family": "dense",
+      "seed": 2,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/dense-2.npz",
+      "sha256": "84081f186e199e9d1bc5e67cbe17ef7af9da184e253457f4d896baff8aa9b481",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense-3",
+      "family": "dense",
+      "seed": 3,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/dense-3.npz",
+      "sha256": "a9858552cf85866d34cc57b1f8fd8468950bae55bf8de699d4cf862f1bb2bf82",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense-4",
+      "family": "dense",
+      "seed": 4,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/dense-4.npz",
+      "sha256": "e05f5936fda484d04198aa228db4380f4622c226da5be33e11e2e6d20c6b3513",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "random-0",
+      "family": "random",
+      "seed": 0,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/random-0.npz",
+      "sha256": "c995d526934638233cd318dacc34fd789fa00bb9232ac8bf7dedae6a4bc2f9f9",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "random-1",
+      "family": "random",
+      "seed": 1,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/random-1.npz",
+      "sha256": "f5f75281c55e395c901de48041d4a641b560cd7bfe311313b235a17860c93ea4",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "random-2",
+      "family": "random",
+      "seed": 2,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/random-2.npz",
+      "sha256": "7b51e15cb498a94d15ab91b5fd185225557443826614ce45cdab14d2974c7e51",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "random-3",
+      "family": "random",
+      "seed": 3,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/random-3.npz",
+      "sha256": "349ef919d457da8ba20742501f91cae25eb35f284af73ba1b2841b0dc1bfcd0f",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "random-4",
+      "family": "random",
+      "seed": 4,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/random-4.npz",
+      "sha256": "f53523039bec1eeca1844ade7f61d293f9e5344dda588649fbe89521e1d5a278",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "heuristic-0",
+      "family": "heuristic",
+      "seed": 0,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/heuristic-0.npz",
+      "sha256": "f6fa92d2a8ab02f0cee44dbdd2c102ea3a2dca0bfefa05f623998b25dd441552",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "heuristic-1",
+      "family": "heuristic",
+      "seed": 1,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/heuristic-1.npz",
+      "sha256": "0cdb74829ed3566ac2efb7f3799a2b27a2ec1989be1d6af554350e7aee4d425e",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "heuristic-2",
+      "family": "heuristic",
+      "seed": 2,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/heuristic-2.npz",
+      "sha256": "995e95d00ee9520ba81acc30f720093195d941a0a047353fded0452b1a8ecf36",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "heuristic-3",
+      "family": "heuristic",
+      "seed": 3,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/heuristic-3.npz",
+      "sha256": "a4fb2360fd95ae709c5f310530c045049e96d144843292bf4a88d24559b34120",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "heuristic-4",
+      "family": "heuristic",
+      "seed": 4,
+      "kind": "gnn",
+      "graph_kind": "binary",
+      "path": "models/heuristic-4.npz",
+      "sha256": "f1ebc25c957feff483095d50265f7cfc2d63dee69ec23deffcd8fa6164df1ce0",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense_soft-0",
+      "family": "dense_soft",
+      "seed": 0,
+      "kind": "gnn",
+      "graph_kind": "weighted",
+      "path": "models/dense_soft-0.npz",
+      "sha256": "240ef1074c39a0a3ab25f364147cddbc2bd954667252a59f13f895b845e58980",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense_soft-1",
+      "family": "dense_soft",
+      "seed": 1,
+      "kind": "gnn",
+      "graph_kind": "weighted",
+      "path": "models/dense_soft-1.npz",
+      "sha256": "e4ddaf798c0292a8ec097be4056a25591365a65703474124561b4f62ccefd563",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense_soft-2",
+      "family": "dense_soft",
+      "seed": 2,
+      "kind": "gnn",
+      "graph_kind": "weighted",
+      "path": "models/dense_soft-2.npz",
+      "sha256": "33ad1f54c3fe4f445cfd1afc91bf7c48fe5dcd96dee31f13646c1c8cf7de5fd6",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense_soft-3",
+      "family": "dense_soft",
+      "seed": 3,
+      "kind": "gnn",
+      "graph_kind": "weighted",
+      "path": "models/dense_soft-3.npz",
+      "sha256": "e338a548c707d49e1e6379ab70ca57590600c75a6777b0a873d415438a3e480d",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "dense_soft-4",
+      "family": "dense_soft",
+      "seed": 4,
+      "kind": "gnn",
+      "graph_kind": "weighted",
+      "path": "models/dense_soft-4.npz",
+      "sha256": "e78bf24eefa66af3ee2fb382c3e5046477f285bb692bf62495d9aa3c5f789d8b",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": null,
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          12,
+          64
+        ],
+        "W_msg": [
+          3,
+          64,
+          64
+        ],
+        "W_self": [
+          3,
+          64,
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_layers": [
+          3,
+          64
+        ]
+      }
+    },
+    {
+      "id": "hybrid-0",
+      "family": "hybrid",
+      "seed": 0,
+      "kind": "hybrid",
+      "graph_kind": "binary",
+      "path": "models/hybrid-0.npz",
+      "sha256": "024091a951e9feaed0a8e28551c9d61f1a7180501d55cf7347c7b7cd2867f5b0",
+      "config": {
+        "dtype": "float32",
+        "D": 8,
+        "H": 64,
+        "N": 24,
+        "q_dim": 2,
+        "L_msg": 3,
+        "eps": 1e-08,
+        "activation": "gelu",
+        "batch_size": 256
+      },
+      "spiking_config": {
+        "variant": "full_v2_soft_release_both",
+        "T_steps": 12,
+        "alpha_mem": 0.9,
+        "theta_init": 0.8,
+        "lambda_spike": 0.001,
+        "lr_b3": 0.0004,
+        "grad_clip_norm_b3": 1.0,
+        "weight_decay": 0.0,
+        "surrogate_beta": 10.0,
+        "use_theta_per_channel": true,
+        "readout_mode": "learned_weighted_last_k_mem",
+        "readout_k": 6,
+        "lambda_aux_late": 0.3,
+        "late_aux_k": 6,
+        "readout_spike_count_feature": true,
+        "readout_residual_mlp": true,
+        "readout_residual_hidden_mult": 1.5,
+        "readout_residual_init_scale": 0.1,
+        "use_distill": true,
+        "lambda_teach_out": 1.3,
+        "lambda_teach_hid": 0.22,
+        "distill_warmup_epochs": 65,
+        "release_mode": "both_linear_floor",
+        "release_start": 10,
+        "release_end_hid": 55,
+        "release_end_out": 95,
+        "teach_out_floor": 0.15,
+        "teach_hid_floor": 0.0,
+        "signed_payload_code": true,
+        "input_injection_mode": "frontload_decay",
+        "input_decay": 0.72,
+        "hybrid_channel": true,
+        "hybrid_u_scale": 0.18,
+        "hybrid_init_scale": 0.15,
+        "trace_channel": true,
+        "beta_trace": 0.82,
+        "n_epochs": 100,
+        "eval_every": 5,
+        "train_batches_per_epoch": 4,
+        "seed": 0
+      },
+      "parameter_shapes": {
+        "W_dec": [
+          64,
+          8
+        ],
+        "W_enc": [
+          20,
+          64
+        ],
+        "W_msg": [
+          64,
+          64
+        ],
+        "W_msg_trace": [
+          64,
+          64
+        ],
+        "W_msg_u": [
+          64,
+          64
+        ],
+        "W_ro1": [
+          64,
+          96
+        ],
+        "W_ro2": [
+          96,
+          64
+        ],
+        "W_self": [
+          64,
+          64
+        ],
+        "W_spike_readout": [
+          64,
+          64
+        ],
+        "b": [
+          64
+        ],
+        "b_dec": [
+          8
+        ],
+        "b_enc": [
+          64
+        ],
+        "b_ro1": [
+          96
+        ],
+        "b_ro2": [
+          64
+        ],
+        "readout_logits": [
+          6
+        ],
+        "theta": [
+          64
+        ]
+      }
+    }
+  ]
+}
